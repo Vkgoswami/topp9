@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'gothambold';
+    src: url('../fonts/gothambold-webfont.woff2') format('woff2'),
+         url('../fonts/gothambold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'messina_sansregular';
+    src: url('../fonts/messinasans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/messinasans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'messina_sanssemibold';
+    src: url('../fonts/messinasans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/messinasans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'messina_sanslight';
+    src: url('../fonts/messinasans-light-webfont.woff2') format('woff2'),
+         url('../fonts/messinasans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

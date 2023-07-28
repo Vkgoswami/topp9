@@ -1,0 +1,1078 @@
+@import url('fonts.css');
+@import url('reset.css');
+/* @import url('casinoDays.css'); */
+
+body {
+    font-family: 'messina_sansregular' !important;
+    background-color: #000;
+    color: #fff;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    border: none;
+    position: relative;
+
+}
+
+.header-buttons p {
+    padding: 0 15px;
+}
+
+.header a {
+    font-size: 16px;
+    font-family: 'messina_sansregular' !important;
+}
+
+.header-buttons button {
+    padding: 15px 20px;
+    background: rgb(255, 127, 29);
+    background: linear-gradient(90deg, rgba(255, 127, 29, 1) 0%, rgba(255, 75, 64, 1) 35%, rgba(255, 20, 102, 1) 100%);
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.bottom-footer {
+    font-size: 15px;
+    line-height: 19px;
+    font-family: 'messina_sansregular' !important;
+    text-align: center;
+    color: #000;
+    padding: 5px 0;
+    background-color: #e5b04a;
+
+}
+
+.footer-list {
+    border: none !important;
+    font-weight: 500;
+    font-family: 'messina_sansregular' !important;
+}
+
+/* .footer-menu{
+    border-right: 3px solid #000;
+} */
+
+footer {
+
+    font-display: swap;
+    padding-top: 30px;
+    background-color: #000;
+    margin-top: 30px;
+}
+
+.top-footer {
+    display: flex;
+    background-image: url('../images/bg-footer.img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top-footer p {
+    color: #fffd;
+    font-size: 18px;
+    font-family: 'messina_sansregular' !important;
+    line-height: 24px;
+}
+
+.top-footer li {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 500 !important;
+    font-family: 'messina_sansregular' !important;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tf-content span {
+    color: #ddd;
+    font-weight: 700;
+}
+
+.tf-menu {
+    border-right: 2px solid #fff;
+}
+
+.tf-games {
+    padding-left: 50px;
+    position: relative;
+}
+
+.tf-games img {
+    position: absolute;
+    top: -34px;
+    right: -15px;
+}
+
+
+/* middle footer */
+.middle-footer li a {
+    border-right: 2px solid #fff;
+
+}
+
+.casino-cards {
+    display: flex;
+    gap: 15px;
+}
+
+.middle-footer {
+    padding: 20px 0 0px 0;
+}
+
+.mf-menu ul {
+    display: flex;
+}
+
+/* .mf-menu ul a:last-child{
+    border: none;
+} */
+
+.mf-menu li a {
+    padding: 0 15px;
+}
+
+.mf-content {
+    display: flex;
+    align-items: center;
+}
+
+.icons ul {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+
+.mfr-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-language {
+    padding-bottom: 15px;
+}
+
+.select-language p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.select-language button {
+    background: rgb(23, 117, 153);
+    background: linear-gradient(360deg, rgba(23, 117, 153, 1) 0%, rgba(58, 159, 186, 1) 24%, rgba(89, 197, 217, 1) 100%);
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: #fff;
+    border: none;
+    text-align: center;
+
+}
+
+
+
+button select {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+}
+
+/* header */
+a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Header */
+.t9-header {
+    background-image: url('../images/t9-header-bg.png.png');
+    background-size: cover;
+    min-height: 100vh;
+    height: 100%;
+    max-width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.t9-menu ul {
+    gap: 20px;
+
+}
+
+.casino-img-header {
+    padding: 150px 0;
+
+}
+
+.banner h1 {
+    color: #fae9b0;
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: 900;
+    padding-top: 150px;
+    font-family: 'GothamMedium' !important;
+}
+
+.banner h1 span {
+    color: rgb(241, 199, 133);
+    color: linear-gradient(180deg, rgba(241, 199, 133, 1) 0%, rgba(238, 188, 119, 1) 50%, rgba(235, 176, 104, 1) 100%);
+}
+
+.banner p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.middle-contet {
+    padding: 100px 0;
+    background-color: white;
+    color: #000;
+    text-align: center;
+}
+
+.online-casino {
+    background-image: url('../images/online-casino-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+}
+
+.online-casino h2 {
+    color: #d3ad79;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'gothambold' ;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Review India */
+
+.review-casino {
+    background-image: url('../images/review-bg.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+}
+
+.section-title {
+    background-image: url('../images/title-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'GothamMedium' !important;
+    color: #000;
+    padding: 15px 10px;
+}
+
+.services-content {
+    padding-top: 30px;
+    font-family: 'messina_sansregular' !important;
+}
+
+.services-content h5 {
+    font-size: 20px;
+    font-family: 'MessinaSans' !important;
+    color: #edb973;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.services-content p {
+    font-size: 14px;
+    font-family: 'messina_sansregular' !important;
+    font-weight: 300;
+}
+
+.casino-services {
+    border: 1px solid #edb973;
+    padding: 40px 25px 25px 25px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+/* Play At Casino */
+
+.pa-content {
+    max-width: 330px;
+    min-height: 390px;
+    background: rgb(233, 172, 98);
+    background: linear-gradient(180deg, rgba(233, 172, 98, 1) 0%, rgba(242, 207, 150, 1) 48%, rgba(253, 249, 212, 1) 100%);
+    border: 5px solid #fff;
+    border-radius: 40px;
+    padding: 50px 20px;
+
+}
+
+.pa-content h3 {
+    font-size: 24px;
+    font-family: 'GothamMedium' !important;
+    color: #000;
+    font-weight: 700;
+}
+
+.pa-content p {
+    font-size: 21px;
+    line-height: 25px;
+    font-family: 'messina_sansregular' !important;
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+    line-height: 29px;
+}
+
+.pa-logo {
+    width: 140px;
+    height: 140px;
+    background: rgb(233, 172, 98);
+    background: linear-gradient(180deg, rgba(233, 172, 98, 1) 0%, rgba(242, 207, 150, 1) 48%, rgba(253, 249, 212, 1) 100%);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 9 !important;
+    padding-top: 15% !important;
+}
+
+
+.pa-btn button {
+
+    background-color: #f84242;
+    border-radius: 22px;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 8;
+    padding: 14px 20px;
+    font-weight: 700;
+}
+
+.pa-btn {
+    margin-top: -20px;
+}
+
+.casino-type {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: center;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 20px;
+}
+
+.casino-card {
+    gap: 30px;
+    justify-content: space-between;
+    margin: 60px 100px !important;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 20px;
+}
+
+.tc-card {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    max-width: 350px;
+}
+
+.tc-card a {
+    color: #ffa33f !important;
+    font-weight: 700;
+    text-decoration: underline !important;
+}
+
+.tc-card h3 {
+    color: #1b3a28;
+    font-weight: 700;
+}
+
+.ind-casino {
+    background-image: url('../images/indian-casino-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+.ind-casino-content {
+
+    height: 420px;
+    text-align: start;
+    padding: 0;
+
+
+}
+
+
+/* .legality-responsible-gambling */
+
+.legality-responsible-gambling {
+    background-color: #000;
+    margin: 50px 0;
+}
+
+.legality-responsible-gambling p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    font-family: 'messina_sansregular';
+}
+
+.legality-responsible-gambling h3 {
+    color: #491200;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'gothambold' !important;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.verification-process img {
+    text-align: center;
+}
+
+.verification-process {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.verification-process p {
+    align-content: start;
+}
+
+.verification-card {
+    width: 530px;
+    height: 675px;
+    background-color: #fff;
+    color: #000;
+    padding: 15px 55px 0 55px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.legality {
+    width: 530px;
+    height: 675px;
+    background-color: #fff;
+    color: #000;
+    padding: 15px 55px 0 55px;
+    text-align: center;
+
+}
+
+.game-fairplay {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.fairness {
+    width: 530px;
+    height: 675px;
+    background-color: #fff;
+    color: #000;
+    padding: 15px 55px 0 55px;
+    text-align: center;
+
+}
+
+.fairplay {
+    padding-top: 30px;
+}
+
+.responsible-gambling {
+    width: 530px;
+    height: 675px;
+    background-color: #fff;
+    color: #000;
+    padding: 15px 55px 0 55px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+/* play online for real money */
+
+.play-online {
+    background-image: url(../images/online-gaming-bg-img.png);
+    background-repeat: no-repeat;
+    min-height: 540px;
+
+}
+
+.play-online h1 {
+    text-transform: uppercase;
+    font-size: 39px;
+    font-weight: 900;
+    padding-top: 60px;
+    line-height: 42px;
+    font-family: 'GothamMedium';
+    color: #d1a150;
+
+}
+
+.play-online-content {
+    padding-left: 150px;
+
+
+}
+
+.play-online-content>p {
+    padding-top: 35px;
+}
+
+
+/* Ind Casino */
+
+.ind-casino {
+    background-image: url('../images/indian-casino-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0 40px 0;
+}
+
+.ind-casino-content {
+    height: 420px;
+    text-align: start;
+    padding: 0;
+
+
+}
+
+.title-bg {
+    background-image: url('../images/heading-bg.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    /* width: 770px; */
+    padding: 15px 0px 15px 95px;
+    font-size: 30px;
+    font-family: 'GothamMedium';
+    color: #000;
+    font-weight: 900;
+}
+
+.ind-casino-about {
+    background-image: url('../images/ind-casino-p-bg.png');
+    /* background-position: left; */
+    width: 600px;
+    background-size: cover;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: 'messina_sanslight';
+    padding: 30px;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+}
+
+.game-about {
+
+    margin-bottom: -300px;
+    text-align: center;
+    padding-top: 450px;
+
+}
+
+.game {
+    gap: 30px;
+}
+
+.game-logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 20px 10px 10px 10px;
+    margin-right: -30px;
+    position: relative;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.about-game {
+    width: 344px;
+    height: 115px;
+    border-top-right-radius: 40px;
+    background-color: #fff;
+    color: #000;
+    margin-top: 35px;
+}
+
+.about-game h4 {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.about-game p {
+    font-size: 15px;
+    line-height: 18px;
+    padding: 30px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+
+
+
+/* payment methods */
+
+.payments-heading {
+    background-image: url('../images/payment-method-bg.png');
+    background-repeat: no-repeat;
+    min-height: 180px;
+    display: flex;
+    position: relative;
+
+}
+
+#payment-methods {
+    background-image: url(../images/payment-full-bg.jpg);
+    background-repeat: no-repeat;
+    margin-top: 310px;
+    border-top: 10px solid #edc07a;
+}
+
+.payments-heading h2 {
+    position: relative;
+    bottom: -105px;
+    left: 162px;
+    color: #000;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'GothamMedium' !important;
+}
+
+#payment-methods p {
+    font-size: 18px !important;
+    line-height: 26px !important;
+    font-family: 'messina_sansregular' !important;
+}
+
+.payment-mode h5 {
+    font-size: 20px;
+    font-family: 'gothambold'!important;
+    text-align: center;
+    font-weight: 900;
+    padding: 20px 0;
+    color: #000;
+}
+
+.payment-mode span {
+    color: #ff9c2c;
+    text-decoration: underline;
+}
+
+.payment-mode p {
+    color: #000;
+}
+
+.paytm {
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 10px 20px;
+
+}
+
+.googlepay {
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.googlepay h5 {
+    padding-top: 16px;
+}
+
+.visamastercard {
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 10px 20px;
+
+}
+
+.visamastercard h5 {
+    padding-top: 24px;
+}
+
+.payment-mode {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.payment-mode img {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.payment-mode a {
+    color: #000 !important;
+    font-weight: 900;
+}
+
+/* buttons */
+
+
+.why-online-casino {
+    background-image: url('../images/online-casino-bg.jpg');
+    background-repeat: no-repeat;
+    min-height: 540px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.why-online {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'messina_sansregular' !important;
+}
+
+.woc {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'messina_sansregular' !important;
+}
+
+.play-online-casino h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'GothamMedium';
+    padding-top: 30px;
+    color: #d1a150;
+    line-height: 56px;
+}
+
+.p-online {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'messina_sansregular' !important;
+}
+
+.po-online {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'messina_sansregular' !important;
+}
+
+.play-online-casino {
+    padding-left: 100px;
+}
+
+.play-online-casino>p {
+    padding-top: 30px;
+}
+
+.play-online-casino-content {
+    padding-top: 120px;
+    position: relative;
+}
+
+.play-online-casino-content img {
+    position: absolute;
+    right: -55px;
+    top: -55px;
+}
+
+
+/* best casino section 2023 */
+
+.best-casinos {
+    background-image: url('../images/online-casino-2023-bg.jpg');
+    height: 799px;
+    padding: 150px 20px 0 20px;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+
+.best-casinos h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 30px;
+    color: #d1a150;
+    line-height: 68px;
+    font-family: 'GothamMedium' !important;
+
+}
+
+.best-casinos p {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'messina_sansregular' !important;
+}
+
+
+.casino-services-left li {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.casino-services-right li {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.services-icon {
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* .services-icon img{
+    max-width: 60px;
+    height: 60px;
+} */
+
+.bg-org {
+    background-color: #f5d594;
+}
+
+.p--4 {
+    padding: 24px;
+}
+
+.star{
+    padding: 0 20px;
+   
+}
+.star li{
+    border: none;
+    gap: 5px !important;
+    padding: 0;
+}
+
+/* type of casino */
+
+.category-title p {
+    font-size: 15px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.type-card li {
+    margin-bottom: 5px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.casino-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+.live-card p {
+    font-size: 14px;
+    line-height: 15px;
+    color: #000;
+}
+
+.live-card  span {
+    padding-left: 10px;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 900;
+    color: #000;
+}
+
+.live-card button {
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 14px;
+    background-color: #fdde40;
+    color: #000;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.line{
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.bg-black img{
+    max-width: 180px;
+    min-height: 60px;
+}
+
+.bg-black{
+    background-image: url('../images/border.png');  
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: right;
+
+}
+
+
+.bold{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* casino section */
+
+.casino {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .casino > .row > * {
+    min-height: 185px;
+  }
+  
+  .casino-logo {
+    background: #000;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 187px;
+    min-width: 210px;
+    position: relative;
+  }
+  
+  .casino-logo > img {
+    position: absolute;
+    left: 45px;
+    max-width: 200px;
+    width: 100%;
+  }
+  
+  .casino-logo-wrapper {
+    background: url("../images/outside-arrow.png") no-repeat right top;
+    padding-right: 86px;
+    min-height: 187px;
+  }
+  .casino-details {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+  }
+  
+  .casino-details p {
+    font-family: "messina_sansregular" !important;
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+  }
+  
+  .casino-details span {
+    display: block;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 58px;
+  }
+  
+  .casino-details i {
+    font-size: 17px;
+    line-height: 18px !important;
+  }
+  
+  .casino-rating,
+  .casino-btn, .casino-payments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+  }
+
+  .casino-payments {
+    gap: 10px;
+  }
+  .casino-rating {
+    flex-direction: column;
+  }
+
+  .casino-rating strong {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+  }
+  
+  .casino-rating li i {
+    font-size: 20px;
+  }
+  
+  .casino-lists-heading p {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .casino > .row > .right-border {
+    position: relative;
+  }
+  .casino > .row > .right-border::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 43px;
+    width: 2px;
+    height: 110px;
+    background-color: #000;
+  }
+  .casino > .row > .right-border:last-child:after,
+  .casino > .row > .right-border:first-child:after {
+    display: none;
+  }
